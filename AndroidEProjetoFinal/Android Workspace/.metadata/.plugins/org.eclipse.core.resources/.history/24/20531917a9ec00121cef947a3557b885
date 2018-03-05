@@ -1,0 +1,55 @@
+package com.tutorial.ptandroid;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.Button;
+import android.widget.TextView;
+import android.view.View;
+
+public class MainActivity extends Activity {
+	
+	int contador;
+    Button add;
+    Button sub;
+    TextView mostra;
+    
+    public void viewButtons(){
+	    add = (Button) findViewById(R.id.bIncr);
+	    sub = (Button) findViewById(R.id.bDecr);
+	    mostra = (TextView) findViewById(R.id.tvMostraContador);
+    
+    
+    add.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            contador++;                                //Incrementa 1 ao Contador
+            mostra.setText("Contador: " + contador);    //Altera o texto da TextView
+        }
+    });
+    
+
+    sub.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            contador--;                                //Decrementa 1 ao Contador
+            mostra.setText("Contador: " + contador);    //Altera o texto da TextView
+        }
+    });
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+    
+}

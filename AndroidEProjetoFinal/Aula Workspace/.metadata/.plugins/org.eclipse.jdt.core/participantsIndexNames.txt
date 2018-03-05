@@ -1,0 +1,37 @@
+INDEX VERSION 1.126
+E:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3243450233.index
+\LojaWEB\src
+G:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3247857872.index
+\LojaWEB-DAO\src
+G:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3360959892.index
+\LojaWEB-DAO\src
+E:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3096417382.index
+\T2-LojaWEB\src
+G:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3243450233.index
+\LojaWEB\src
+G:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1935061658.index
+\ARTHUR - LojaWEB\src
+E:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3360959892.index
+\LojaWEB-DAO\src
+E:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1039909338.index
+\T2-LojaWEB\src
+G:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1039909338.index
+\T2-LojaWEB\src
+E:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1596684838.index
+\ProjetoWeb20132\src
+G:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2127677189.index
+\LojaWEB\src
+G:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3803952848.index
+\Projeto WEB -CRUD - NELSON\src
+G:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2670759006.index
+\ARTHUR - LojaWEB\src
+E:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3247857872.index
+\LojaWEB-DAO\src
+G:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3096417382.index
+\T2-LojaWEB\src
+E:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\650456540.index
+\ProjetoWeb20132\src
+E:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2503573501.index
+\ProjetoWeb20132\src
+E:\Aula Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2127677189.index
+\LojaWEB\src

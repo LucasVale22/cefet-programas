@@ -1,0 +1,38 @@
+package com.intro.android.memoclave;
+
+import android.view.MotionEvent;
+
+public class ExProcessing {
+	String touchEvent = "";    // string for touch event type
+	float pressure = (float) 0.0;      // pressure and size variables
+	float pointerSize = (float) 0.0;
+	 
+	// add the following to the bottom of your sketch; this code overrides the
+	// built-in method, then sends the data on after we capture it
+	public boolean dispatchTouchEvent(MotionEvent event) {
+	 
+	  float x = event.getX();                              // get x/y coords of touch event
+	  float y = event.getY();
+	 
+	  int action = event.getActionMasked();          // get code for action
+	  pressure = event.getPressure();                // get pressure and size
+	  pointerSize = event.getSize();
+	 
+	  switch (action) {                              // let us know which action code shows up
+	  case MotionEvent.ACTION_DOWN:
+	    touchEvent = "DOWN";
+	    break;
+	  case MotionEvent.ACTION_UP:
+	    touchEvent = "UP";
+	    pressure = pointerSize = (float) 0.0;                // when up, set pressure/size to 0
+	    break;
+	  case MotionEvent.ACTION_MOVE:
+	    touchEvent = "MOVE";
+	    break;
+	  default:
+	    touchEvent = "OTHER (CODE " + action + ")";  // default text on other event
+	  }
+	 
+	  return dispatchTouchEvent(event);        // pass data along when done!
+	}
+}

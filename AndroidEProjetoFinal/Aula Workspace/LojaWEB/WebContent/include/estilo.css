@@ -1,0 +1,130 @@
+BODY {
+    padding: 0px;
+    MARGIN: 0px;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: medium;
+    BACKGROUND-COLOR: rgb(0,128,192);
+    TEXT-ALIGN: center
+}
+P,body {
+    COLOR: #000
+}
+IMG {
+	border: 0;
+}
+.hide {
+    DISPLAY: none
+}
+.form {
+    BACKGROUND-IMAGE: url('common/bgform1.gif);
+}
+.form2 {
+    BACKGROUND-IMAGE: url('common/bgform2.jpg);
+}
+.form, .form2 {
+    border: #90bc8b 1px solid;
+    BACKGROUND-REPEAT: repeat-x
+}
+#container {
+    border: 3px solid #000;
+    padding: 0;
+    BACKGROUND-IMAGE: url('common/CD.GIF');
+    BACKGROUND-REPEAT: no-repeat;
+    BACKGROUND-COLOR: white;
+    BACKGROUND-POSITION: left top;
+    WIDTH: 760px;
+    TEXT-ALIGN: left
+}
+#banner {	
+    BORDER-BOTTOM: #000 2px solid;
+    height: 35px;
+}
+#content {
+    BACKGROUND-POSITION: 50% bottom;
+    BACKGROUND-REPEAT: no-repeat;
+    BACKGROUND-COLOR: #ffff;
+    padding: 0px 85px 0px 20px;
+    FONT-SIZE: 0.8em;
+    LINE-HEIGHT: 150%;
+    WIDTH: 760px;
+}
+#content input {
+	border: 1px solid black;
+}
+#menu LI {
+    COLOR: #fff;
+    LIST-STYLE-TYPE: square
+}
+H1,H2,H3 {
+    FONT-WEIGHT: normal;
+    COLOR: #993366;
+    FONT-SIZE: 14pt;
+    COLOR: #006699;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    LETTER-SPACING: 3px
+}
+h1#title {
+	display: inline;
+	margin-left: 10px;
+}
+a.option {
+    font-size: 1em;	
+    color: #3d639c;
+  	text-decoration: none;
+}
+a.option:hover {
+	border-bottom: 1px solid black;
+}
+#sidebar-a {
+    padding: 20px 0 0 0;
+    FLOAT: left;
+	margin-left: -20px;
+    WIDTH: 150px;
+    BACKGROUND-COLOR: #fff
+}
+#menu { 
+    DISPLAY: block;
+	width: 150px;
+}
+#menu a {
+	font-family: Verdana, Arial, sans-serif;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.8em;
+    COLOR: rgb(0,105,163);
+    LINE-HEIGHT: 180%;
+    TEXT-DECORATION: none;
+} 
+#menu a:hover, #menu a.active {
+    COLOR: rgb(161,210,251);
+    BORDER-BOTTOM: #999966 1px dotted
+}
+#menu UL {
+    padding: 0;
+    MARGIN: 0;
+}
+#menu LI {
+    BACKGROUND-IMAGE: url('common/bglih.png');
+    BACKGROUND-REPEAT: repeat-x;
+    MARGIN-BOTTOM: 3px;
+    LIST-STYLE-TYPE: none
+}
+#menu LI:hover {
+    BACKGROUND-IMAGE: url('common/bgli.png');
+    BACKGROUND-REPEAT: repeat-x
+}
+#footer {
+	padding: 10px 0 10px 0;
+	font-family: Verdana, Arial, sans-serif;    
+	CLEAR: both;
+    MARGIN-TOP: 15px;
+    COLOR: #000;
+    BACKGROUND-REPEAT: repeat-x;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: center;
+    WIDTH: 760
+}
+#footer ADDRESS {
+    FONT-SIZE: 0.7em;
+    COLOR: #000;
+    FONT-STYLE: normal
+}

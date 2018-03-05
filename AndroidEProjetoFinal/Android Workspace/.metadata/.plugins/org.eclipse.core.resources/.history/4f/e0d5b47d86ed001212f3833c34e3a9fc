@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Memo Clave</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <dimen name="lwidth">100dp</dimen>
+    <dimen name="lheight">50dp</dimen>
+    <string name="play">PLAY</string>
+    <string name="play">HELP</string>
+    <string name="play">SETTINGS</string>
+    <string name="play">QUIT</string>
+
+</resources>

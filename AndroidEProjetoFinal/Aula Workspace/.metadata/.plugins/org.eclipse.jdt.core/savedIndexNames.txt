@@ -1,0 +1,18 @@
+INDEX VERSION 1.126+G:\Aula Workspace\.metadata\.plugins\org.eclipse.jdt.core
+448720304.index
+532709077.index
+2793609471.index
+745797254.index
+4009338976.index
+3412568393.index
+816926849.index
+1937595905.index
+2077412922.index
+3575499923.index
+3145669175.index
+1138589813.index
+2848880831.index
+794295814.index
+963821590.index
+2698039265.index
+4037118079.index

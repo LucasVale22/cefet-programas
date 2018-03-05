@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:javaee="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+
+	<servlet>
+		<description>Ponto de entrada da aplicação</description>
+		<display-name>AppServlet</display-name>
+		<servlet-name>AppServlet</servlet-name>
+		<servlet-class>br.cefetrj.lojaweb.ui.ServletExemplo</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AppServlet</servlet-name>
+		<url-pattern>/lojaweb</url-pattern>
+	</servlet-mapping>
+		
+	<welcome-file-list>
+		<welcome-file>AdivinharNumero.html</welcome-file>
+		<welcome-file>ListarBooks.jsp</welcome-file>
+		<welcome-file>ImprimeNumeros.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+	<resource-ref>
+		<description>DB Connection Pool</description>
+		<res-ref-name>jdbc/TestBD</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+		<res-sharing-scope>Unshareable</res-sharing-scope>
+	</resource-ref>
+</web-app>

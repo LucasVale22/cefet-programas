@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Context reloadable="true">
+	<Resource auth="Container" description="Banco de dados para MidiasOnline"
+		name="jdbc/TesteBD" type="javax.sql.DataSource" password="post"
+		driverClassName="org.postgresql.Driver" maxIdle="20" maxWait="5000"
+		validationQuery="" username="postgres" url="jdbc:postgresql://localhost:5432/TesteBD"
+		maxActive="20" />
+</Context>
