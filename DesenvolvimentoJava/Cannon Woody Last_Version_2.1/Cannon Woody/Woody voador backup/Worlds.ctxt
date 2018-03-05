@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=width\ height\ cels\ bound
+comment0.target=Worlds(int,\ int,\ int,\ boolean)
+comment1.params=
+comment1.target=void\ mountLevel()
+numComments=2

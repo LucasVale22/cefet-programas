@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=lift\ boost\ meter\ point\ world
+comment0.target=Canon(Lifter,\ Booster,\ Meters,\ Points,\ Cannon)
+comment1.params=lift\ boost\ meter\ point\ world
+comment1.target=Canon(Lifter,\ Booster,\ Meters,\ Points,\ Arcade)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

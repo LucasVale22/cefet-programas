@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=points
+comment0.target=Ranking(int)
+comment1.params=
+comment1.target=int\ checaPlace()
+comment2.params=place
+comment2.target=void\ replaceRanking(int)
+comment3.params=
+comment3.target=void\ mountRanking()
+comment4.params=
+comment4.target=void\ prepare()
+comment5.params=
+comment5.target=void\ act()
+numComments=6

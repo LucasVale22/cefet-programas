@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Meters()
+comment1.params=
+comment1.target=void\ changeImg()
+comment2.params=mov
+comment2.target=void\ addDist(float)
+comment3.params=
+comment3.target=void\ reset()
+numComments=4
