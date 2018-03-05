@@ -1,0 +1,20 @@
+Classes:
+
+	-Escola
+	-Disciplina
+	-Professor
+	-Aluno Abstrato (Técnico/Superior)
+	-Pessoa Abstrata
+	-Turma
+
+Relacionamentos
+
+Escola:{disciplinas,professores,alunos,turmas}
+Disciplina:{turmas}
+Turma:{disciplinas,alunos,professor}
+Aluno:{turmas}
+Professor:{turmas}
+
+*Não colocar turmas na superclasse Pessoa!
+*Cada turma está realcionada a um professor!
+*HARDCODE para objetos :D

@@ -1,0 +1,56 @@
+<?php
+	$a=800;
+	$b=600;
+	$d="resultado";
+	if(is_dir($d))
+	{
+		if ($dh = opendir($d)) 
+		{
+			while($f=readdir($dh))
+			{
+					if(preg_match('/min-(?P<name>[^.]+).jpg/',$f,$m))
+					{
+						unlink("resultado/$f");
+					}
+						
+			}
+			
+		}
+		closedir($dh);
+	}
+		$x=$_FILES["img"]["tmp_name"];
+		$name=$_FILES["img"]["name"];
+		$origem=imagecreatefromjpeg($x);
+			list($w,$h)=getimagesize($x);
+			if($w>$h)
+			{
+			$dest=imagecreatetruecolor($a,$b);
+				imagecopyresized($dest,$origem,0,0,0,0,$a,$b,$w,$h);
+				for($u=0;$u<4;$u++)
+				{
+					for($v=0;$v<3;$v++)
+					{
+						$mini=imagecreatetruecolor(200,200);
+						imagecopyresized($mini,$dest,0,0,$u*200,$v*200,200,200,200,200);
+						$n="foto-".$u.$v.".jpg";
+						imagejpeg($mini,"resultado/$n");
+						imagedestroy($mini);
+					}
+				}
+			}
+			else
+			{
+				$dest=imagecreatetruecolor($b,$a);
+				imagecopyresized($dest,$origem,0,0,0,0,$b,$a,$w,$h);
+				for($u=0;$u<3;$u++)
+				{
+					for($v=0;$v<4;$v++)
+					{
+						imagecopyresized($mini,$dest,0,0,$u*200,$v*200,200,200,200,200);
+						$n="foto-".$u.$v.".jpg";
+						imagejpeg($mini,"resultado/$n");
+						imagedestroy($mini);
+					}
+				}
+			}	
+?>
