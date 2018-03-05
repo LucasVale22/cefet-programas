@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Site de Compras</title>
+<link rel="stylesheet" type="text/css" href="formata_ex1_form.css"/>
+</head>
+<body>
+<br/>
+<h3>Vale Compra</h3>
+<br/>
+<div class="a">
+	<div class="b">
+	<form action="http://mp4-4.dyndns.info/mclaren/default.aspx">
+	<fieldset>
+    <legend>Selecione abaixo as ações que deseja realizar:</legend>
+	<input type="checkbox" name="Integrar a conta ao site de compras"/>Integrar a conta ao site de compras;<br/>
+	<input type="checkbox" name="Obter conta independente das compras;"/>Obter conta independente das compras;<br/>
+	<input type="checkbox" name="Adicionar pacote x;"/>Adicionar pacote x;<br/>
+	<input type="checkbox" name="Conta-teste."/>Conta-teste.<br/>
+	</fieldset>
+    <fieldset>
+	<legend>Dados Pessoais:</legend>
+	Nome:&nbsp;<input type="text" name="Nome" size="30"/></br>
+	Sobrenome:&nbsp;<input type="text" name="Nome" size="30"/><br/>
+	<br/>Seu sexo:<br/>
+	<input type="radio" name="sex" value="Masc" /> Masculino<br/>
+	<input type="radio" name="sex" value="Fem" checked="checked" />Feminino
+	<br/><br/>
+	Faixa Etária:<br/>
+	<select name="fxetaria">
+	<option value="Abaixo de 18 anos - Menor">Abaixo de 18 anos - Menor</option>
+	<option value="Entre 18 e 30 anos">Entre 18 e 30 anos</option>
+	<option value="Entre 30 e 65 anos">Entre 30 e 65 anos</option>
+	<option value="Acima de 65 anos - Idoso">Acima de 65 anos - Idoso</option>
+	</select>
+	<br/>
+	</fieldset>
+	<fieldset>
+	<legend>Informações locais:</legend>
+	UR:
+	<select name="comp">
+	<option value="RJ">RJ</option>
+	<option value="SP">SP</option>
+	<option value="MG">MG</option>
+	</select>
+	Município:&nbsp;<input type="text" name="mun"/>
+	Bairro:&nbsp;<input type="text" name="bar"/><br/>
+	Endereço:&nbsp;<input type="text" name="end" size="50"/>
+	<br/>
+	CEP:&nbsp;<input type="text" name="CEP"/>
+	Número:&nbsp;<input type="text" name="Num" size="5"/><br/>
+	Complemento:
+	<select name="comp">
+	<option value="FUNDOS">FUNDOS</option>
+	<option value="SOBRADO">SOBRADO</option>
+	<option value="OUTROS">OUTROS</option>
+	</select>
+	</fieldset>
+	<fieldset>
+	<legend>Informações para Contato</legend>
+	Telefones:&nbsp;<input type="text" name="telr"/>&nbsp;<input type="text" name="telc"/><br/>
+	E-mail:&nbsp;<input type="text" name="email" size="50"/><br/><br/>
+	Observações:<br/>
+	<textarea name="textarea" rows="5" width="50"></textarea>
+	</fieldset>
+	<div/>
+	<h5>
+	<input type="submit" value="Enviar"/>	
+	<input type="reset" value="Descartar"/>
+	</h5>
+	</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body
+{
+background-image:url('Fundoprinc.png');
+background-attachment:fixed;
+background-size: cover;
+background-repeat: no-repeat;
+}
+table{width:80%; border:solid 5px white; border-style:groove;}
+p{color:red;}
+h2
+{
+width: 300px;
+border: solid 8px white;
+border-radius: 0.5em;
+border-style: ridge;
+font-family: "Terminator Two","calibri","verdana";
+color: white;
+font-size: 22pt;
+box-shadow: -2px 3px 9px black;
+margin-left:300px;
+margin-right:300px;
+text-align:center;
+}
+h3
+{
+font-family:"monotype corsiva";
+font-size:14pt;
+text-align:center;
+color:white;
+}
+#t1{background-color:#F0FFF0; opacity:0.85; filter:alpha(opacity=85);}
+#t2{background-color:#E0EEE0; opacity:0.85; filter:alpha(opacity=85);}
+#t3{background-color:#C1CDC1; opacity:0.85; filter:alpha(opacity=85);}
+#t4{background-color:#838B83; opacity:0.85; filter:alpha(opacity=85);}
+.a
+{
+border: solid 1px white;
+border-radius: 1em;
+font-family:calibri,verdana;
+font-size:10pt;
+}
+#b{text-align:right;}

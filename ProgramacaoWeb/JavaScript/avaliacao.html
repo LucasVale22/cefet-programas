@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+	<head>
+		<title>Sistema de Avaliação - Avaliar</title>
+		<link rel="stylesheet" type="text/css" href="formata.css"/>
+		<script type="text/javascript" src="manipula.js"></script>
+	</head>
+	<body>
+		<div align="center">
+		<h2>Controle</h2>
+			<fieldset>
+				<legend align="center">Preencha os Campos Abaixo:</legend>
+				<form method="get" onsubmit="analise_func(a.value,c.value,qv.value,qh.value,qr.value);">
+					<table>
+						<tr>
+							<td>Selecione o nome do Funcionário:</td>
+							<td>
+								<select id="fundform">
+									<option></option>
+									<option>Gabriel Passarelli</option>
+									<option>Igor Martire</option>
+									<option>Gabriel Passarelli</option>
+									<option>Lucas do Vale</option>
+									<option>Nelson Lachini</option>
+									<option>Thamyres Rosa</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Código do Depto.:</td>
+							<td><input name="deptcod" type="text" id="fundform"/></td>
+						</tr>
+						<tr>
+							<td>Nome do Depto.:</td>
+							<td><input name="deptonm" type="text" id="fundform"/></td>
+						</tr>
+						<tr>
+							<td>Assiduidade:</td>
+							<td>
+								<input name="a" type="radio" value="1"/>1
+								<input name="a" type="radio" value="2"/>2
+								<input name="a" type="radio" value="3"/>3
+								<input name="a" type="radio" value="4"/>4
+								<input name="a" type="radio" value="5"/>5
+							</td>
+						</tr>
+						<tr>
+							<td>Cumprimento dos Prazos de Tarefas:</td>
+							<td>
+								<input name="c" type="radio" value="1"/>SIM
+								<input name="c" type="radio" value="0"/>NÃO
+							</td>
+						</tr>
+						<tr>
+							<td>Qtde. de Chamadas Atend. por hora</td>
+							<td>
+								<select name="qh" id="fundform">
+									<option value=""></option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Qtde. de Vendas Realiz. por sem.</td>
+							<td>
+								<select name="qv" id="fundform">
+									<option value=""></option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+									<option value="13">13</option>
+									<option value="14">14</option>
+									<option value="15">15</option>
+									<option value="16">16</option>
+									<option value="17">17</option>
+									<option value="18">18</option>
+									<option value="19">19</option>
+									<option value="20">20</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td> Qtde. de Recl. Obtidas por sem.</td>
+							<td>
+								<select name="qr" id="fundform">
+									<option value=""></option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+									<option value="13">13</option>
+									<option value="14">14</option>
+									<option value="15">15</option>
+									<option value="16">16</option>
+									<option value="17">17</option>
+									<option value="18">18</option>
+									<option value="19">19</option>
+									<option value="20">20</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<input type="submit" value="Avaliar!"/>
+				</form>
+			</fieldset>	
+		<div>
+	</body>
+</html>

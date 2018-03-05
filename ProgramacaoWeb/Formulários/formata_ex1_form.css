@@ -1,0 +1,58 @@
+body
+{
+background-image: url('black-wood-background.jpg');
+background-attachment:fixed;
+}
+h3
+{
+font-family:calibri,verdana;
+text-align: center;
+border:solid #E6E8FA 3px;
+margin-left:330px;
+margin-right:330px;
+border-radius:1.3em;
+color:black;
+font-size:30;
+background-color:#E6E8FA;
+}
+h5
+{
+font-family:calibri,verdana;
+text-align:center;
+color:white;
+}
+hr
+{
+color:#ffffff;
+size:100px;
+}
+div.a
+{
+border: solid #E6E8FA 4px;
+border-radius: 1.3em;
+text-align:justify;
+margin-left:250px;
+margin-right:250px;
+}
+.b
+{
+color: white;
+font-family: calibri,verdana;
+opacity:.65;
+filter:alpha(opacity=65);
+}
+a:link {color:yellow;}
+a:visited{color:yellow;}
+a:hover {color:red;}
+a:active {color:blue;} 
+legend
+{
+color:yellow;
+font-family:"monotype corsiva";
+font-size:13pt;
+}
+select,textarea,input
+{
+background-color:#E6E8FA;
+font-family:calibri,verdana;
+}

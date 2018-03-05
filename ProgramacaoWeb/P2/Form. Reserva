@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+	<head>
+		<title>Formulário</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css"/>
+		<script type="text/javascript" src="dados.js"></script>
+	</head>
+	<body>
+		<h2>FORMULÁRIO DE RESERVA</h2>
+		<form method="get" onsubmit="return analisar();" name="form1">
+		<div class="a">
+			<h3>Preencha o formulário abaixo (um para cada participante)</h3>
+			<table id="t1" align="center">
+				<tr>
+					<td>
+						Participante
+					</td>
+					<td>
+						<input type="text" name="part" size="50"/>	
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Endereço
+					</td>
+					<td>
+						<input type="text" name="end" size="80"/>	
+					</td>
+				</tr>
+				<tr>
+					<td>
+						CEP
+					</td>
+					<td>
+						<input type="text" name="cep" size="10"/>	
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Cidade
+					</td>
+					<td>
+						<input type="text" name="cid" size="30"/>	
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Estado
+					</td>
+					<td>
+						<select name="est">
+							<option value="AC">AC</option>
+							<option value="AL">AL</option>
+							<option value="AM">AM</option>
+							<option value="AP">AP</option>
+							<option value="BA">BA</option>
+							<option value="CE">CE</option>
+							<option value="DF">DF</option>
+							<option value="ES">ES</option>
+							<option value="GO">GO</option>
+							<option value="MA">MA</option>
+							<option value="MG">MG</option>
+							<option value="MS">MS</option>
+							<option value="MT">MT</option>
+							<option value="PA">PA</option>
+							<option value="PB">PB</option>
+							<option value="PE">PE</option>
+							<option value="PI">PI</option>
+							<option value="PR">PR</option>
+							<option value="RN">RN</option>
+							<option value="RJ" selected>RJ</option>
+							<option value="RO">RO</option>
+							<option value="RR">RR</option>
+							<option value="RS">RS</option>
+							<option value="SE">SE</option>
+							<option value="SP">SP</option>
+							<option value="SC">SC</option>
+							<option value="TO">TO</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						E-mail
+					</td>
+					<td>
+						<input type="text" name="mail" size="30"/>	
+					</td>
+				</tr>
+			</table>
+			<h3>Selecione os cursos por ordem de preferência</h3>
+			<table id="t2" align="center">
+			<tr>
+				<td>
+					<select>
+						<option name="" value="">Escolha a primeira opção</option>
+						<option name="so" value="150">Sistemas Operacionais</option>
+						<option name="ia" value="150">Inteligência Artificial</option>
+						<option name="bd" value="150">Banco de Dados</option>
+					</select>
+				</td>
+				<td id="b">
+					R$ 150,00
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<select>
+						<option name="" value="">Escolha a segunda opção</option>
+						<option name="so" value="150">Sistemas Operacionais</option>
+						<option name="ia" value="150">Inteligência Artificial</option>
+						<option name="bd" value="150">Banco de Dados</option>
+					</select>
+				</td>
+				<td id="b">
+					R$ 150,00
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<select>
+						<option name="" value="">Escolha a tereceira opção</option>
+						<option name="so" value="150">Sistemas Operacionais</option>
+						<option name="ia" value="150">Inteligência Artificial</option>
+						<option name="bd" value="150">Banco de Dados</option>
+					</select>
+				</td>
+				<td id="b">
+					R$ 150,00
+				</td>
+			</tr>
+			</table>
+			<h3>Selecione os minnicursos desejados</h3>
+			<table id="t3" align="center">
+				<tr>
+					<td>
+						<input type="radio" name="rob" value="300"/>
+					</td>
+					<td>
+						Início em 24/11/11 - Robótica
+					</td>
+					<td id="b">
+						R$ 300,00
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="radio" name="uml" value="200"/>
+					</td>
+					<td>
+						Início em 25/11/11 - UML
+					</td>
+					<td id="b">
+						R$ 200,00
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="radio" name="lin" value="250"/>
+					</td>
+					<td>
+						Início em 28/11/11 - Linux
+					</td>
+					<td id="b">
+						R$ 250,00
+					</td>
+				</tr>
+			</table>
+			<br/>
+			<table id="t4" align="center">
+				<tr>
+					<td>
+						<input type="checkbox" name="todos" value=""/> 
+					</td>
+					<td>
+						Participação em todos os minicursos
+					</td>
+					<td rowspan="2" id="b">
+						R$ 750,00
+					</td>
+				</tr>
+				<tr>
+					<td>
+						
+					</td>
+					<td>
+						<p>Não esqueça de selecionar um cursos acima!</p>
+					</td>
+				</tr>
+			</table>
+			<div align="center">
+				<input type="submit" value="Inscrever-se"/>
+				<input type="submit" value="Limpar"/>
+			</div>
+		</div>
+		</form>
+	</body>
+</html>

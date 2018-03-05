@@ -1,0 +1,63 @@
+body
+{
+background-image: url('fundo_pag.png');
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+}
+h2
+{
+width: 300px;
+border: solid 8px white;
+border-radius: 0.5em;
+border-style: ridge;
+font-family: "Terminator Two","calibri","verdana";
+color: white;
+font-size: 22pt;
+box-shadow: -2px 3px 9px black;
+}
+div
+{
+font-family: calibri,verdana;
+font-size:10pt;
+color: #EEEEE0;
+}
+fieldset
+{
+width: 450px;
+border: solid 5px black;
+border-radius: 0em 0em 1em 1em;
+border-style: double;
+background-image: url('fundo-degrade.png');
+background-position: center;
+background-size: cover;
+transition: border 0.5s;
+-webkit-transition: border 0.5s;
+-moz-transition: border 0.5s;
+-o-transition: border 0.5s;
+}
+fieldset:hover
+{
+width: 450px;
+border: solid 5px white;
+border-radius: 0em 0em 1em 1em;
+border-style: double;
+background-image: url('fundo-degrade.png');
+background-position: center;
+background-size: cover;
+}
+legend
+{
+font-size: 16pt;
+font-family: "monotype corsiva";
+text-shadow: -1px 1px 3px black;
+}
+input
+{
+font-family: calibri;
+transition: background 0.5s;
+}
+#fundform
+{
+background-color: #EEEEE0;
+}

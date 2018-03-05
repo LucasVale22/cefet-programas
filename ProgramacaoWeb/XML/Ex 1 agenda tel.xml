@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<agenda>
+	<nome letra="a">
+		Amanda Lopes
+	</nome>
+	<end>
+		<estado ur="SP">
+			<mnp>Pindamonhangaba</mnp>
+			<bairro>Vila Hermes</bairro>	
+			<rua num="700">Orquideas</rua>
+			<cep>31255899</cep>
+		</estado>
+	</end>
+	<contato>
+		<tel>
+			<resid>38945636</resid>
+			<cel>78892564</cel>
+			<comerc>36997878</comerc>
+		</tel>
+		<email>amandinax@yahoo.com</email>
+	</contato>
+	<nome letra="l">
+		Lucas do Vale Santos
+	</nome>
+	<end>
+		<estado ur="RJ">
+			<mnp>Sao Joao de Meriti</mnp>
+			<bairro>Sao Matheus</bairro>	
+			<rua num="381">Jorge Nanhay</rua>
+			<cep>25525080</cep>
+		</estado>
+	</end>
+	<contato>
+		<tel>
+			<resid>27562404</resid>
+			<cel>71821707</cel>
+			<comerc>Nenhum</comerc>
+		</tel>
+		<email>lukasvale22@gmail.com</email>
+	</contato>
+	<nome letra="letra">
+		Nome
+	</nome>
+	<end>
+		<estado ur="UR">
+			<mnp>Municipio</mnp>
+			<bairro>Bairro</bairro>	
+			<rua num="numero">Rua</rua>
+			<cep>CEP</cep>
+		</estado>
+	</end>
+	<contato>
+		<tel>
+			<resid>Residencial</resid>
+			<cel>Celular</cel>
+			<comerc>Comercial</comerc>
+		</tel>
+		<email>Email</email>
+	</contato>
+</agenda>

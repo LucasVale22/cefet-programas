@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<tabela>
+	<nome>Joao</nome>
+	<end>
+		<rua>X</rua>
+	</end>
+	<tel>21211010</tel>
+	
+	<nome>Pedro</nome>
+	<end>
+		<rua>Y</rua>
+	</end>
+	<tel>31411111</tel>
+	
+	<nome>Lucas</nome>
+	<end>
+		<rua>Z</rua>
+	</end>
+	<tel>41612112</tel>
+</tabela>
